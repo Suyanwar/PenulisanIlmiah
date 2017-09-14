@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.root.penulisanilmiah.AddPlantActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Tanaman"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/White"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/et_bg"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        android:id="@+id/plant_name"
+        android:hint="  Nama tanaman"
+        android:textColorHint="@color/White"
+        android:textSize="20sp"
+        android:textColor="@color/White"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/plant_jenis"
+        android:padding="3dp"
+        android:background="#30ffffff"
+        android:overlapAnchor="false"
+        android:popupBackground="#30ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_lgn_bg"
+        android:text="Add plant"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:id="@+id/btnAddPlant"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="2dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_lgn_bg"
+        android:text="Configure Kind"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:id="@+id/moveAddKind"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="2dp"/>
+</LinearLayout>

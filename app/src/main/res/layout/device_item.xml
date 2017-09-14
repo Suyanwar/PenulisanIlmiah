@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/et_bg">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_device_icon"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama_device"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="Nama Device"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama_tanaman_active"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Nama Tanaman Aktif"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>

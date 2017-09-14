@@ -1,0 +1,11 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.root.penulisanilmiah.DashBoardFragment">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dashboard_web" />
+</FrameLayout>

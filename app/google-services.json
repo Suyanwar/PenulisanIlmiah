@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "357677674792",
+    "firebase_url": "https://penulisanilmiah-24a09.firebaseio.com",
+    "project_id": "penulisanilmiah-24a09",
+    "storage_bucket": "penulisanilmiah-24a09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357677674792:android:ebfbe20c830d6dd8",
+        "android_client_info": {
+          "package_name": "com.example.root.penulisanilmiah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357677674792-vo4080lf42e34aelbmluig5564nvh7l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.root.penulisanilmiah",
+            "certificate_hash": "b2bccae194829182e9e36841a013991c067fcf02"
+          }
+        },
+        {
+          "client_id": "357677674792-mu75r3rc7hpe7g55gcoaqjvvqt3q81np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDpbabCXt4n0MxzwURWcwe-PshUJjbtbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357677674792-mu75r3rc7hpe7g55gcoaqjvvqt3q81np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

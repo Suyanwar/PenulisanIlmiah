@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.root.penulisanilmiah.SettingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Device Mode"
+            android:textSize="20sp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_mode">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_mode_manual"
+                android:text="Manual"
+                android:textSize="17sp"
+                android:onClick="selectOption"
+                android:padding="5dp"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_mode_auto"
+                android:text="Otomatis"
+                android:onClick="selectOption"
+                android:textSize="17sp"
+                android:padding="5dp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Tombol Lampu"
+            android:textSize="20sp"/>
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lampu"
+            android:textSize="17dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_log_bg"
+        android:text="Delete Device"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:id="@+id/btn_delete"/>
+</RelativeLayout>

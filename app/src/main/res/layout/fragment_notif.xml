@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.penulisanilmiah.NotifFragment">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_notif"/>
+    <TextView
+        android:text="Belum ada notif yang masuk"
+        android:layout_width="180dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_notif_null"/>
+</FrameLayout>

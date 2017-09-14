@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.root.penulisanilmiah.ListKindActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_lgn_bg"
+        android:text="Tambah Jenis"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:id="@+id/tambah_jenis"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="List Tanaman Anda"
+        android:textSize="20sp"
+        android:textColor="@color/White"
+        android:gravity="center"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_kind"
+        android:visibility="gone"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_null_kind"
+        android:text="Belum ada jenis tanaman"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="@color/White"
+        android:gravity="center"/>
+</LinearLayout>
